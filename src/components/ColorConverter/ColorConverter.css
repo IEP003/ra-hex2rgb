@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.color-converter-form { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.info {
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.33;
+    color: white;
+}
+
+.input-color {
+    text-align: center;
+}
+
